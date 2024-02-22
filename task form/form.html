@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<Style>
+    label {
+        font-weight: bold;
+        width: 200px;
+        text-align: right;
+        display: inline-block;
+    }
+    span{
+        color: red;
+    }
+    fieldset{
+        padding:20px;
+        width: 80%;
+        margin: auto;
+    }
+    .box{
+        background-color: rgb(236, 236, 236);
+        padding: 50px;
+        width: 60%;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+
+    }
+    button{
+        border-radius: 40px;
+        color: white;
+        background-color: rgb(10, 11, 7);
+        margin-left: 120px;
+        height: 30px;
+        width: 120px;
+    }
+</Style>
+
+<body>
+    <form>
+        <h2>New Resistation form</h2>
+        <div class="box">
+            <fieldset>
+                <legend><b>Persnol Details</b></legend>
+                <label><b>First Name </b><span>*</span></label>
+                <input type="text"><br> <br>
+                <label><b>Middle Name</b><span>*</span></label>
+                <input type="text"><br> <br>
+                <label><b>Last Name</b><span>*</span></label>
+                <input type="text"><br> <br>
+                <label><b>Date Of Birth</b></label>
+                <input type="date"><br> <br>
+                <label><b>Your Gender</b><span>*</span></label>
+                <input type="radio" name="aa">
+                <label><b>Male</b></label>
+                <input type="radio" name="aa">
+                <label>Feamle</label><br> <br>
+                <label>Your Permanat Address<span>*</span></label>
+                <textarea></textarea>
+
+            </fieldset><br> <br>
+
+
+            <fieldset>
+                <legend><b>Education Qulification</b></legend>
+                <label>10 <sup>th</sup> SchoolCollege Name<span>*</span></label>
+                <input type="text"> 
+                <label>10<sup>th</sup>Score</label>
+                <input type="text"><br> <br>
+                <label>12<sup>th</sup>SchoolCollege Name<span>*</span></label>
+                <input type="text">
+                <label>12<sup>th</sup>Score</label>
+                <input type="text"><br> <br>
+                <label>Graduation UniversityCollege Name</label>
+                <input type="text">
+                <label>Graduation Score</label>
+                <input type="text">
+
+            </fieldset><br> <br>
+
+            <fieldset>
+                <legend><b>Area Of intrest</b></legend>
+                <label>Your Favourite Outdoor Game</label>
+                <select>
+                    <option>footbol</option>
+                    <option>Cricket</option>
+                    <option>Lagori</option>
+                </select><br> <br>
+                <label>Your Favourite Indoor Game</label>
+                <select>
+                    <option>Chess</option>
+                    <option>Carrom</option>
+                    <option>Ludo</option>
+                </select><br> <br>
+                <label>Your Favourite Mobaile Game</label>
+                <select>
+                    <option>PUBG</option>
+                    <option>candyCrash</option>
+                    <option>TempleRun</option>
+                </select><br> <br>
+                <label>Rate Your Game Spirit</label>
+                <input type="range">
+            </fieldset><br> <br>
+
+            <button>
+                Submit
+            </button>
+            
+
+        </div>
+    </form>
+</body>
+
+</html>

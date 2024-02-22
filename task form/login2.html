@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url(abc.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    }
+
+    nav {
+        text-align: right;
+        color: white;
+        height: 50px;
+
+    }
+
+    .logo {
+        text-align: left;
+        display: flex;
+        padding-top: 0;
+        width: 20px;
+        float: left;
+        margin: 0;
+        font-size: 50px;
+
+    }
+
+    .nav-text {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 20px;
+        width: 40%;
+
+    }
+
+    .box {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+        margin: auto;
+        margin-top: 10%;
+        width: 30%;
+        border: none;
+        height: 350px;
+        padding: 5px;
+
+    }
+
+
+
+    .logn {
+        width: 80%;
+        border-radius: 2px;
+        height: 30px;
+        background-color: #fff;
+    }
+
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+
+    .btn {
+        background-color: rgb(17, 15, 15);
+        border: 2px solid rgb(255, 255, 255);
+        height: 30px;
+        width: 90px;
+        color: rgb(185, 235, 99);
+    }
+
+    input {
+        border: none;
+        padding: 7px;
+        margin: 0;
+    }
+
+    .ep {
+        width: 90%;
+        padding: 7px;
+    }
+</style>
+
+<body>
+    <h2 class="logo">LOGO</h2>
+    <nav>
+        <h2 class="logo">LOGO</h2>
+        <a href="#" class="nav-text">Home</a>
+        <a href="#" class="nav-text">About</a>
+        <a href="#" class="nav-text">Services</a>
+        <a href="#" class="nav-text">Contact</a>
+        <button class="btn">Login</button>
+    </nav>
+    <div class="box">
+        <form>
+            <h2>Login</h2>
+            <input type="text" placeholder="Email" class="ep" />
+            <hr><br>
+            <input type="password" placeholder="Password" class="ep" />
+            <hr>
+
+            <input type="checkbox" id="demo" />
+            <label for="demo">Remember me</label><br>
+            <a href="#"><b>Forgot password?</b></a> <br> <br>
+                    <input type="submit" class="logn" value="Login"><br> <br>
+                    <label>Don't have an account?</label><a href="#"><b> Register</b></a>
+        </form>
+    </div>
+</body>
+
+</html>
